@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Rockforweb_Oggymenu</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">OSL 3.0</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Responsive drop down menu. Might contain product categories, cms pages. Can display product count for categories in menu.</summary>
+    <description>Responsive drop down menu. Might contain product categories, cms pages. Can display product count for categories in menu.</description>
+    <notes>Responsive drop down menu. Might contain product categories, cms pages. Can display product count for categories in menu.</notes>
+    <authors><author><name>rockforweb</name><user>rockforweb</user><email>rockforweb@yandex.ru</email></author></authors>
+    <date>2015-02-09</date>
+    <time>00:59:19</time>
+    <contents><target name="magecommunity"><dir name="Rockforweb"><dir name="Oggymenu"><dir name="Block"><file name="Menu.php" hash="e72b49da3f1c57ff1dc9efe4fab521b8"/></dir><dir name="Helper"><file name="Data.php" hash="b9477a556f5eb0181dfa2a1a9b25eb94"/></dir><dir name="etc"><file name="config.xml" hash="947d668cdd293363801ced89787c4dd2"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Rockforweb_Oggymenu.xml" hash="bf0b8596207bbb23e5171cb917b2a74f"/></dir></target><target name="magedesign"><dir name="frontend"><dir name="base"><dir name="default"><dir name="layout"><file name="oggymenu.xml" hash="961bb14d542db07c7208e13ec2ea2506"/></dir><dir name="template"><dir name="rockforweb"><dir name="oggymenu"><file name="menu.phtml" hash="544227868903502e2cdb0f120f5deb47"/></dir></dir></dir></dir></dir></dir></target><target name="mageskin"><dir name="frontend"><dir name="base"><dir name="default"><dir name="css"><dir name="oggymenu"><file name="styles.css" hash="8a5d417bcd508a5094f75867ba08db7f"/></dir></dir><dir name="js"><dir name="oggymenu"><file name="jquery.js" hash="2d83e33d8f96493a1c059f4921c52349"/><file name="script.js" hash="e23fd5a32a31fb58fb96ea9ee3456e75"/></dir></dir></dir></dir></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.3.0</min><max>5.5.0</max></php><package><name>Mage_Core_Latest</name><channel>connect.magentocommerce.com/core</channel><min>1.7.0</min><max>1.9.1</max></package></required></dependencies>
+</package>

@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category    Oggymenu
+* @package     Rockforweb_Oggymenu
+* @copyright   Copyright (c) 2015 Rockforweb (http://www.rockforweb.com/)
+*/
+-->
+<config>
+    <modules>
+        <Rockforweb_Oggymenu>
+            <version>1.0.0</version>
+        </Rockforweb_Oggymenu>
+    </modules>
+    <global>
+        <blocks>
+            <oggymenu>
+                <class>Rockforweb_Oggymenu_Block</class>
+            </oggymenu>
+        </blocks>
+        <helpers>
+            <oggymenu>
+                <class>Rockforweb_Oggymenu_Helper</class>
+            </oggymenu>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <oggymenu>
+                    <file>oggymenu.xml</file>
+                </oggymenu>
+            </updates>
+        </layout>
+    </frontend>
+</config>

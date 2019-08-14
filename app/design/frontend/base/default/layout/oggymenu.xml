@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!--
+/**
+* @category    Oggymenu
+* @package     Rockforweb_Oggymenu
+* @copyright   Copyright (c) 2015 Rockforweb (http://www.rockforweb.com/)
+*/
+-->
+<layout version="0.1.0">
+    <default>
+        <reference name="head">
+            <action method="addItem"><type>skin_css</type><name>css/oggymenu/styles.css</name><params/></action>
+            <action method="addItem"><type>skin_js</type><name>js/oggymenu/jquery.js</name><params/></action>
+            <action method="addItem"><type>skin_js</type><name>js/oggymenu/script.js</name><params/></action>
+        </reference>
+        <reference name="header">
+            <block after="store_language" type="core/text_list" name="top.menu" as="topMenu" translate="label">
+                <label>Oggy Menu</label>
+                <block type="oggymenu/menu" name="oggymenu" template="rockforweb/oggymenu/menu.phtml" />
+            </block>
+        </reference>
+    </default>
+</layout>

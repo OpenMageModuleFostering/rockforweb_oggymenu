@@ -1,0 +1,14 @@
+<!--
+/**
+* @category    Oggymenu
+* @package     Rockforweb_Oggymenu
+* @copyright   Copyright (c) 2015 Rockforweb (http://www.rockforweb.com/)
+*/
+-->
+<div id='cssmenu'>
+    <?php
+        $rootСatId = Mage::app()->getStore()->getRootCategoryId();
+        $categories = Mage::getModel('catalog/category')->getCategories($rootСatId);
+        echo  $this->getCategories($categories);
+    ?>
+</div>
