@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Rockforweb_Oggymenu",
+    "name": "OpenMageModuleFostering\/Rockforweb_Oggymenu",
     "type": "magento-module",
     "license": "OSL-3.0",
     "homepage": "",
     "description": "Responsive drop down menu. Might contain product categories, cms pages. Can display product count for categories in menu.",
     "authors": [
-    {
-        "name": "rockforweb",
-        "email": "rockforweb@yandex.ru"
-    }
-],
+        {
+            "name": "rockforweb",
+            "email": "rockforweb@yandex.ru"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
